@@ -75,6 +75,7 @@ func (m *DockerMetric) Collect() (model.BaseMetricValue, error) {
 			Status: status,
 		})
 	}
+	cli.Close()
 	return model.BaseMetricValue{
 		Value:      metrics,
 		ExecutedAt: time.Now(),
