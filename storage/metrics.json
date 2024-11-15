@@ -1,0 +1,36 @@
+[
+      {
+        "name": "CPU Usage",
+        "metric_type": "cpu",
+        "active": true,
+        "period": 5,
+        "file":"log/merics/cpu.json",
+        "retention_period": 120
+      },
+      {
+        "name": "Memoru Usage",
+        "metric_type": "memory",
+        "active": true,
+        "period": 5,
+        "file":"log/merics/memory.json",
+        "retention_period": 120
+      },
+      {
+        "name": "Disk Usage",
+        "metric_type": "disk",
+        "active": true,
+        "period": 5,
+        "file":"log/merics/disk.json",
+        "retention_period": 120
+      },
+      {
+        "name": "Docker Usage",
+        "metric_type": "docker",
+        "active": true,
+        "period": 5,
+        "file":"log/merics/docker.json",
+        "retention_period": 120
+      }
+    ]
+
+  
